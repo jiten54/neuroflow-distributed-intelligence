@@ -55,34 +55,20 @@ Monitoring & Metrics Dashboard
 - Observability for large-scale systems  
 - Data-driven system behavior analysis  
 
----
+## 🤖 Machine Learning Integration
 
-## 🛠️ Tech Stack
+NeuroFlow incorporates data-driven techniques for analyzing system behavior and detecting anomalies in distributed environments.
 
-- Python  
-- FastAPI  
-- React.js  
-- WebSockets (real-time updates)  
-
----
-
-## 🚀 Future Enhancements
-
-- Integration with Redis/Kafka for real queue systems  
-- Kubernetes-based deployment  
-- Advanced anomaly detection models  
-- Multi-node distributed deployment  
-- Scalable cloud infrastructure  
+- Applied anomaly detection concepts to identify abnormal system load and failure patterns  
+- Modeled system behavior using real-time metrics and task execution data  
+- Designed the system to support future integration with ML/DL frameworks such as TensorFlow and PyTorch  
+- Structured the platform to simulate real-world ML system monitoring and observability  
 
 ---
 
-## 👨‍💻 Author
+## 🔄 MLOps Perspective
 
-**Jiten Moni Das**  
-GitHub: https://github.com/jiten54  
-
----
-
-## 📌 Note
-
-This project demonstrates the design and implementation of distributed system monitoring and intelligent observability concepts in a simulated environment.
+- Simulates production-like ML monitoring environments  
+- Supports real-time data streams for system analysis  
+- Designed for extensibility toward model deployment and pipeline integration  
+- Aligns with principles of scalable and reliable ML systems  
