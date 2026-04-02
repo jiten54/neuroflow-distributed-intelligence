@@ -1,74 +1,20 @@
-# NeuroFlow – Distributed Intelligence Platform
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A distributed intelligence system for real-time monitoring, workload simulation, and anomaly detection across multiple nodes.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🔍 Overview
+View your app in AI Studio: https://ai.studio/apps/dda0565d-d87b-4d57-b3f8-809b234210a6
 
-NeuroFlow is designed to simulate and monitor distributed systems under varying workloads. It provides real-time insights into system behavior, enabling analysis of performance, failures, and workload distribution.
+## Run Locally
 
-The platform focuses on system observability, reliability, and intelligent monitoring in distributed environments.
-
----
-
-## ⚙️ Key Features
-
-- Real-time task monitoring and streaming  
-- Distributed node simulation with coordinator architecture  
-- System load tracking and workload distribution  
-- Failure detection and system behavior analysis  
-- Interactive dashboard for observability  
-- Simulation of overload conditions and fault scenarios  
-
----
-
-## 🧠 System Architecture
+**Prerequisites:**  Node.js
 
 
-Nodes (node-1, node-2, ...)
-↓
-Coordinator (central control system)
-↓
-Task Execution Engine
-↓
-Monitoring & Metrics Dashboard
-
-
----
-
-## 📊 Metrics Tracked
-
-- System load (including overload scenarios)  
-- Tasks completed  
-- System failures  
-- Active tasks  
-- Node-level performance  
-
----
-
-## 🧪 Use Cases
-
-- Distributed system monitoring  
-- Workflow and task orchestration analysis  
-- Failure simulation and recovery testing  
-- Observability for large-scale systems  
-- Data-driven system behavior analysis  
-
-## 🤖 Machine Learning Integration
-
-NeuroFlow incorporates data-driven techniques for analyzing system behavior and detecting anomalies in distributed environments.
-
-- Applied anomaly detection concepts to identify abnormal system load and failure patterns  
-- Modeled system behavior using real-time metrics and task execution data  
-- Designed the system to support future integration with ML/DL frameworks such as TensorFlow and PyTorch  
-- Structured the platform to simulate real-world ML system monitoring and observability  
-
----
-
-## 🔄 MLOps Perspective
-
-- Simulates production-like ML monitoring environments  
-- Supports real-time data streams for system analysis  
-- Designed for extensibility toward model deployment and pipeline integration  
-- Aligns with principles of scalable and reliable ML systems  
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
